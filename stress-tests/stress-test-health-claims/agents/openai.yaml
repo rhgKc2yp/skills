@@ -1,0 +1,14 @@
+interface:
+  display_name: Health Evidence Stress Test
+  short_description: Challenge health claims through evidence and risk checks.
+  default_prompt: Use $stress-test-health-claims to critically review this health
+    claim, including contradictory evidence and risks.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
